@@ -6,9 +6,9 @@ Enables simple github-style markdown for syntax highlighting on [vk.com](http://
 To highlight code in a message, wrap it this pair of open/close tags:
 
 ```
-\`\`\`language
+```language
 /* your code here */
-\`\`\`
+```
 ```
 
 ##Supported languages
