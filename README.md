@@ -25,4 +25,4 @@ PHP | php
 Python | python
 Ruby | ruby
 
-Any language prism supports could be added to this chrome extension, so just ask for it :)
+Any language that prism supports could be added to this chrome extension, so just ask for it :)
