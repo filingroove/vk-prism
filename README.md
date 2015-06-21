@@ -12,7 +12,8 @@ To highlight code in a message, wrap it like you would using github markdown:
 
 
 ##Supported languages
-Language | 
+Language | Code
+-------|-------
 Markup | markup
 CSS | css
 C-like | clike
