@@ -8,8 +8,9 @@ To highlight code in a message, wrap it this pair of open/close tags:
 ```
 ```language
 /* your code here */
+\\`\\`\\`
 ```
-```
+
 
 ##Supported languages
 Language | 
