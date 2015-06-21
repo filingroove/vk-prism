@@ -3,12 +3,11 @@ Enables simple github-style markdown for syntax highlighting on [vk.com](http://
 ![vk-prism screenshot]()
 
 ## How to:
-To highlight code in a message, wrap it this pair of open/close tags:
+To highlight code in a message, wrap it like you would using github markdown:
 
 ```
 ```language
 /* your code here */
-\\`\\`\\`
 ```
 
 
