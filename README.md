@@ -20,7 +20,6 @@ CSS | css
 C-like | clike
 JavaScript | js
 Bash | bash
-C | c
 C++ | cpp 
 Java | java
 PHP | php
