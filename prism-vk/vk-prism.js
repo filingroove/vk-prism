@@ -44,7 +44,7 @@
 	});
 
 	var imObserver = new MutationObserver(function(mutations) {
-		console.log('im observer');
+		//console.log('im observer');
 
 	 	reloadObserve();
 	 	setTimeout(highlight, 500);   
