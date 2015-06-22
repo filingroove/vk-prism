@@ -39,18 +39,36 @@
 		
     }
 
-    var tables = document.querySelectorAll('.im_log_t tbody');
-
-    var observer = new MutationObserver(function(mutations) {
+    var tableObserver = new MutationObserver(function(mutations) {
 	 	highlight();   
 	});
 
-    for (var i = 0; i<tables.length; i++) {
-		observer.observe(tables[i], {
-			childList: true,
-			subtree: false
-		});
+	var imObserver = new MutationObserver(function(mutations) {
+		console.log('im observer');
+
+	 	reloadObserve();
+	 	setTimeout(highlight, 500);   
+	});
+
+    var reloadObserve = function() {
+
+    	var tables = document.querySelectorAll('.im_log_t tbody');
+
+	    for (var i = 0; i<tables.length; i++) {
+			tableObserver.observe(tables[i], {
+				childList: true,
+				subtree: false
+			});
+	    }
+
     }
+
+    reloadObserve();
+    
+    imObserver.observe(document.getElementById('im_rows'), {
+    	childList: true,
+		subtree: false
+    })
 	
     setTimeout(highlight, 500);
 })();

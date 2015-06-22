@@ -1,5 +1,6 @@
 # vk-prism
 Enables simple github-style markdown for syntax highlighting on [vk.com](http://vk.com/) instant messaging section. Based on [Prism.js](http://prismjs.com/)
+
 ![vk-prism screenshot](https://raw.githubusercontent.com/filingroove/vk-prism/master/screenshot.png)
 
 ## How to:
